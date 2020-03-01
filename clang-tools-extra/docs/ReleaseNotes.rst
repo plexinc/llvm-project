@@ -252,6 +252,11 @@ Improvements to clang-tidy
   Adds ``[[nodiscard]]`` attributes (introduced in C++17) to member functions
   to highlight at compile time which return values should not be ignored.
 
+- New :doc:`plex-avoid-std-call-once
+  <clang-tidy/checks/plex-avoid-std-call-once>` check.
+
+  FIXME: add release notes.
+
 - New :doc:`readability-const-return-type
   <clang-tidy/checks/readability-const-return-type>` check.
 

@@ -25,6 +25,7 @@ add_clang_library(clangTidyPlugin
   clangTidyPortabilityModule
   clangTidyReadabilityModule
   clangTidyZirconModule
+  clangTidyPlexModule
   clangTooling
   )
 

@@ -108,6 +108,11 @@ extern volatile int ZirconModuleAnchorSource;
 static int LLVM_ATTRIBUTE_UNUSED ZirconModuleAnchorDestination =
     ZirconModuleAnchorSource;
 
+// This anchor is used to force the linker to link the PlexModule.
+extern volatile int PlexModuleAnchorSource;
+static int LLVM_ATTRIBUTE_UNUSED PlexModuleAnchorDestination =
+    PlexModuleAnchorSource;
+
 } // namespace tidy
 } // namespace clang
 

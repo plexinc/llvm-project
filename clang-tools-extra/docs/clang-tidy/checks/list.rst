@@ -232,6 +232,7 @@ Clang-Tidy Checks
    performance-type-promotion-in-math-fn
    performance-unnecessary-copy-initialization
    performance-unnecessary-value-param
+   plex-avoid-std-call-once
    portability-simd-intrinsics
    readability-avoid-const-params-in-decls
    readability-braces-around-statements
